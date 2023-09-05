@@ -1,0 +1,30 @@
+
+.controlsContainer {
+  margin-bottom: 8px;
+  align-items: center;
+  button {
+    background-color: #0074d9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin: 0 8px;
+    font-size: 1rem;
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  .activePlayer {
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .controlsContainer {
+    flex-direction: column;
+    button, .activePlayer {
+      margin: 8px 0;
+    }
+  }
+}

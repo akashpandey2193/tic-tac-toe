@@ -1,0 +1,20 @@
+.App {
+  height: 100vh;
+  .matchEndTxt {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.center-flex {
+  justify-content: center;
+  align-items: center;
+}
