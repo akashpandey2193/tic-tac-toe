@@ -1,7 +1,8 @@
 import { useState } from "react";
 import './App.scss';
- 
-import { Square, Controls } from "./components";
+
+import { Controls } from "./components/Controls";
+import { Square } from "./components/Square";
 
 const INITIAL_FIELD_VAL = ['', '', '', '', '', '', '', '', ''];
 const INITIAL_PLAYER = 'X';

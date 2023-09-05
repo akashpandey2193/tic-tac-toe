@@ -1,6 +1,6 @@
 import './controls.scss'
 
-export default function Controls({
+export function Controls({
   activePlayer,
   undoMove,
   resetGame,
